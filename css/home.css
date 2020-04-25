@@ -6,15 +6,159 @@ body{
   margin: 0 auto;
   padding: 0 auto;
 
+
+}
+/* Nav bar --------------------------- */
+
+ .fa-instagram {
+  position: absolute;
+  right: 10px; 
+  font-size: 30px;
+  color: white;
+
 }
 
-.card-title{
-  font-size: 23px;
+ .fa-facebook {
+  color: white;
+  position: absolute;
+  right: 50;
+  font-size: 30px;
 }
 
-#instagram{
-  width: 200px;
+
+/* Post page */
+.offshore_logo{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 5px;  
+    
 }
+
+#offshore_title{
+  border-bottom: 2px solid black;
+  font-family: 'Bangers', cursive;
+}
+
+main {
+  text-align: center;
+  font-family: 'Exo 2', sans-serif;
+  display: flex;
+}
+
+main .card{
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 400px;
+  margin: 20px auto;
+  background-color:#343a40;
+  color: white;
+
+}
+
+main .card img {
+  height: 300px;
+}
+
+
+/* Gallery */
+  .gallery_description{
+    text-align: center;
+  }
+
+  .video-container{
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgba(0,0,0);
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+video {
+    width: 75%;
+    height: auto;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+video:focus{
+    outline: none;
+}
+/* footer -----------------------------*/
 .footer{
-  background-color: red;
+  height: 150px;
+  background-color: #343a40;
 }
+.copyright-container{
+  text-align: left;
+
+}
+.copyright{
+  color: white;
+  font-size: 16px;
+
+
+}
+
+/* about page ----------------    ------ -------*/
+
+
+.overlay{
+  width: 100%;
+  height: 600px;
+  opacity: 0.4;
+  
+}
+.container_about{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.card-location{
+  width: 300px;
+  margin-bottom: 40px;
+}
+
+.card-who{
+  width: 500px;
+
+}
+/* Nav bar query */
+
+@media only screen and (max-width: 768px){
+  nav .fa-facebook{
+    display: none;
+  }
+  nav .fa-instagram{
+    display: none;
+  }
+
+}
+
+/* nav bar title query */
+@media only screen and (max-width: 425px){
+  nav .offshore_nav-title{
+    display: none;
+  }
+
+}
+/* Form media query to get the forms responsive */
+@media only screen and (max-width: 425px) {
+  form .email{
+    width: 400px;
+  }
+}
+
+/* Footer */
+ @media only screen and (max-width: 600px) {
+  .copyright-container{
+    text-align: center;
+    font-size: 12px;
+
+  }
+  .copyright{
+    font-size: 12px;
+    margin-top: 20px;
+  }
+ }

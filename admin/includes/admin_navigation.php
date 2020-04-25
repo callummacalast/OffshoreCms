@@ -7,7 +7,7 @@
   <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
       <li class="nav-item active">
-        <a class="nav-link" href="../index.php">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="../index.php">Home </a>
       </li>
       <li class="nav-item">
       <a class="nav-link" href="posts.php?source=view_all_messages"> Feedback</a>
@@ -21,6 +21,16 @@
     <a class="dropdown-item" href="./posts.php">View all posts</a>
   </div>
 </div>
+<div class="dropdown">
+  <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <?php echo $_SESSION['admin_username']; ?>
+  </a>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+  <a href="#" class="nav-link text-danger">Logout of admin</a>                               
+  </div>
+</div>
+<li class="nav-item active">
+</li>
 
     </ul>
     <form class="form-inline my-2 my-lg-0">

@@ -25,6 +25,10 @@ switch($source) {
     include "includes/view_all_messages.php";
   break;
 
+  case 'login ';
+    include "../admin/login.php";
+  break;
+
   default:
   include "includes/view_all_posts.php";
   break;

@@ -10,6 +10,10 @@
 
 <!-- Custom Fonts -->
 <script src="https://kit.fontawesome.com/c5a3b5b538.js" crossorigin="anonymous"></script>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
+
 
 <!-- Custom CSS -->
 <link href="css/home.css" rel="stylesheet" type="text/css">

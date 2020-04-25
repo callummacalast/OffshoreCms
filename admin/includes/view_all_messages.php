@@ -1,4 +1,4 @@
-
+<?php include "../includes/db.php"; ?>
 <h1 class="display-4 text-center">Feedback</h1>
 <table class="table col-8 mx-auto my-auto table-bordered table-hover">
                       <thead>
@@ -34,7 +34,7 @@
                           echo "<td>{$user_message}</td>";
                           echo "<td><a href='www.google.com' target='_blank'>Reply</a></td>";
                           echo "<td><a href='' target='_blank'>Done</a></td>";
-                          echo "<td><a href='' name='delete'>Delete</a></td>";
+                          echo "<td><a href='admin?delete={$feedback_id}'>Delete</a></td>";
                         }
 
                       ?>
@@ -48,7 +48,7 @@
                     $query = "DELETE FROM feedback WHERE feedback_id = {$the_feedback_id}";
 
                     $delete_query = mysqli_query($connection, $query);
-                    header("Location: admin/index.php");
+                    header("Location: admin");
                     }
 
 

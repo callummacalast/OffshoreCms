@@ -1,5 +1,12 @@
 <footer class="footer">
-
+  <div class="social_media">
+    <a class="facebook-footer" href="https://www.facebook.com/offshoresurfwearwestwales/" target="_blank"><i class="fab fa-facebook"></i></a>
+    <a class='instagram-footer' href='https://www.instagram.com/_offshoresurfwear/?hl=en' target='_blank'><i class='fab fa-instagram'></i></a>
+  </div>  
+  <br>
+  <div class="copyright-container">
+    <small class="copyright">&copy; 2020, Offshore Surf Wear</small>
+  </div>  
 
 
   </footer>

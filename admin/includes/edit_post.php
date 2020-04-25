@@ -1,4 +1,6 @@
+<?php include "../includes/db.php"; ?>
 <?php
+
 
 if(isset($_GET['p_id'])) {
 

@@ -1,3 +1,4 @@
+<?php include "../includes/db.php"; ?>
 <table class="table col-12 float-right table-bordered table-hover">
                       <thead>
                         <tr>
@@ -41,7 +42,8 @@
                     $query = "DELETE FROM posts WHERE post_id = {$the_post_id}";
 
                     $delete_query = mysqli_query($connection, $query);
-                    header("Location: posts.php");
+                    header("Location: ../posts.php");
+
                     }
 
 
