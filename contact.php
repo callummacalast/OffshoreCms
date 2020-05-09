@@ -25,7 +25,7 @@
   <div class="form-group col-9 mx-auto my-auto">
     <label for="user_message">Leave us a message</label>
     <textarea class="form-control" name="user_message" rows="3"></textarea>
-    <input class="btn btn-outline-primary mt-2 w-100" type="submit" name="feedback">
+    <input class="btn btn-outline-primary mt-2 w-100" type="submit" name="feedback" id="feedback_message">
 
   </div>
 </form>

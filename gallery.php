@@ -5,7 +5,7 @@
 <br>
 <h2 class="display-5 text-center">Welcome to our Gallery</h2>
 <div class="gallery_description">
-  <p>Offshore has a passion for surfing, exploration and creating great content.</p>
+  <!-- <p>Offshore has a passion for surfing, exploration and creating great content.</p> -->
 
 </div>
 

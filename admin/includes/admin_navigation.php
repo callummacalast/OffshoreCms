@@ -23,7 +23,8 @@
 </div>
 <div class="dropdown">
   <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    <?php echo $_SESSION['admin_username']; ?>
+  logout
+    <?php //echo $_SESSION['admin_username']; ?>
   </a>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
   <a href="#" class="nav-link text-danger">Logout of admin</a>                               

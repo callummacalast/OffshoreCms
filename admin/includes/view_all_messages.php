@@ -1,4 +1,5 @@
 <?php include "../includes/db.php"; ?>
+<!-- <link href="../css/index.css"> -->
 <h1 class="display-4 text-center">Feedback</h1>
 <table class="table col-8 mx-auto my-auto table-bordered table-hover">
                       <thead>
@@ -32,9 +33,9 @@
                           echo "<td>{$user_lastname}</td>";
                           echo "<td>{$user_email}</td>";
                           echo "<td>{$user_message}</td>";
-                          echo "<td><a href='www.google.com' target='_blank'>Reply</a></td>";
-                          echo "<td><a href='' target='_blank'>Done</a></td>";
-                          echo "<td><a href='admin?delete={$feedback_id}'>Delete</a></td>";
+                          echo "<td><a href='mailto:calmacalast@gmail.com' target='_blank'>Reply</a></td>";
+                          echo "<td class='done-change'><a class='done_message' href=''>Done</a></td>";
+                          echo "<td class='delete-message'><a href='admin?delete={$feedback_id}'>Delete</a></td>";
                         }
 
                       ?>

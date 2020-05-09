@@ -1,0 +1,12 @@
+.done_message {
+  color: white;
+
+}
+
+.done-change{
+  background-color: green;
+}
+
+.delete-message{
+  background-color: red;
+}

@@ -2,13 +2,12 @@
 <?php ob_start(); ?> 
 <?php session_start(); ?>
 
-<?php if(!isset($_SESSION['admin_id'])) {
-  if($_SESSION['admin_id'] !== $db_user_id) {
-    header("Location: login.php" );
-  }
-} 
-
-
+<?php 
+// if(!isset($_SESSION['admin_id'])) {
+  // if($_SESSION['admin_id'] !== $db_user_id) {
+    // header("Location: login.php" );
+  // }
+// } 
 ?>
 
 

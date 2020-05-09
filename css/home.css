@@ -10,21 +10,6 @@ body{
 }
 /* Nav bar --------------------------- */
 
- .fa-instagram {
-  position: absolute;
-  right: 10px; 
-  font-size: 30px;
-  color: white;
-
-}
-
- .fa-facebook {
-  color: white;
-  position: absolute;
-  right: 50;
-  font-size: 30px;
-}
-
 
 /* Post page */
 .offshore_logo{
@@ -60,6 +45,10 @@ main .card img {
   height: 300px;
 }
 
+.card-title{
+  text-decoration: underline;
+}
+
 
 /* Gallery */
   .gallery_description{
@@ -89,16 +78,36 @@ video:focus{
   height: 150px;
   background-color: #343a40;
 }
-.copyright-container{
-  text-align: left;
-
-}
 .copyright{
   color: white;
-  font-size: 16px;
+  font-size: 24px;
+  margin-left: 4%;
+  margin-top: 20px;
+
+}
+
+.social_media{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.icon-media_container{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.fa-instagram-square, .fa-facebook-square {
+  font-size: 40px;
+  color: white;
+  margin: 5px;
+  margin-left: 30px;
+
 
 
 }
+
+ 
 
 /* about page ----------------    ------ -------*/
 
@@ -154,11 +163,11 @@ video:focus{
  @media only screen and (max-width: 600px) {
   .copyright-container{
     text-align: center;
-    font-size: 12px;
+    font-size: 16px;
 
   }
   .copyright{
-    font-size: 12px;
+    font-size: 16px;
     margin-top: 20px;
   }
  }
